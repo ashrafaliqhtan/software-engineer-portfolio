@@ -2,13 +2,12 @@
 
 A modern, responsive portfolio website built with Next.js 16, React 19, and Tailwind CSS 4. Features a clean design with dark/light mode support, blog functionality, project showcases, and more.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/aq96650-9091s-projects/v0-software-engineer-portfolio)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/tkQll4EuRom)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
-[![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)](https://react.dev/)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)
+![Next.js](https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=next.js)
+![React](https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC?style=for-the-badge&logo=tailwind-css)
 
-## Features
+## ✨ Features
 
 - **Modern Stack** - Built with Next.js 16, React 19, and Tailwind CSS 4
 - **Dark/Light Mode** - Theme toggle with system preference detection
@@ -21,7 +20,7 @@ A modern, responsive portfolio website built with Next.js 16, React 19, and Tail
 - **Accessible** - WCAG compliant with proper ARIA attributes
 - **Performance** - Optimized images, fonts, and lazy loading
 
-## Pages
+## 📄 Pages
 
 | Page | Description |
 |------|-------------|
@@ -34,7 +33,7 @@ A modern, responsive portfolio website built with Next.js 16, React 19, and Tail
 | `/resume` | Interactive resume/CV page |
 | `/privacy` | Privacy policy page |
 
-## Tech Stack
+## 🛠 Tech Stack
 
 ### Core
 - [Next.js 16](https://nextjs.org/) - React framework with App Router
@@ -54,7 +53,7 @@ A modern, responsive portfolio website built with Next.js 16, React 19, and Tail
 - [Recharts](https://recharts.org/) - Chart components
 - [date-fns](https://date-fns.org/) - Date utilities
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -64,34 +63,34 @@ A modern, responsive portfolio website built with Next.js 16, React 19, and Tail
 ### Installation
 
 1. Clone the repository:
-\`\`\`bash
-git clone https://github.com/your-username/software-engineer-portfolio.git
+```bash
+git clone https://github.com/ashrafaliqhtan/software-engineer-portfolio.git
 cd software-engineer-portfolio
-\`\`\`
+```
 
 2. Install dependencies:
-\`\`\`bash
+```bash
 pnpm install
 # or
 npm install
 # or
 yarn install
-\`\`\`
+```
 
 3. Run the development server:
-\`\`\`bash
+```bash
 pnpm dev
 # or
 npm run dev
 # or
 yarn dev
-\`\`\`
+```
 
 4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Project Structure
+## 📁 Project Structure
 
-\`\`\`
+```
 ├── app/                    # Next.js App Router pages
 │   ├── blog/              # Blog pages
 │   ├── contact/           # Contact page
@@ -116,9 +115,9 @@ yarn dev
 │   └── utils.ts           # Utility functions
 ├── public/                # Static assets and images
 └── hooks/                 # Custom React hooks
-\`\`\`
+```
 
-## Customization
+## 🔧 Customization
 
 ### Personal Information
 
@@ -134,7 +133,7 @@ Update your personal information in the following files:
 
 Add or modify projects in `lib/projects-data.ts`:
 
-\`\`\`typescript
+```typescript
 export const projects = [
   {
     slug: "project-slug",
@@ -149,13 +148,13 @@ export const projects = [
   },
   // ... more projects
 ]
-\`\`\`
+```
 
 ### Blog Posts
 
 Add or modify blog posts in `lib/blog-data.tsx`:
 
-\`\`\`typescript
+```typescript
 export const blogPosts = [
   {
     slug: "post-slug",
@@ -168,13 +167,13 @@ export const blogPosts = [
   },
   // ... more posts
 ]
-\`\`\`
+```
 
 ### Theme Colors
 
 Customize colors in `app/globals.css` by modifying the CSS variables:
 
-\`\`\`css
+```css
 :root {
   --background: 0 0% 100%;
   --foreground: 0 0% 3.9%;
@@ -187,9 +186,9 @@ Customize colors in `app/globals.css` by modifying the CSS variables:
   --foreground: 0 0% 98%;
   /* ... dark mode variables */
 }
-\`\`\`
+```
 
-## Scripts
+## 📝 Scripts
 
 | Command | Description |
 |---------|-------------|
@@ -198,7 +197,7 @@ Customize colors in `app/globals.css` by modifying the CSS variables:
 | `pnpm start` | Start production server |
 | `pnpm lint` | Run ESLint |
 
-## Deployment
+## 🌐 Deployment
 
 This project is configured for deployment on [Vercel](https://vercel.com):
 
@@ -208,21 +207,19 @@ This project is configured for deployment on [Vercel](https://vercel.com):
 
 Or deploy with one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/software-engineer-portfolio)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/ashraf-qahtan/portfolio)
 
-## v0 Integration
-
-This repository is synced with [v0.app](https://v0.app). Changes made in v0 are automatically pushed to this repository.
-
-- **Build your app**: [v0.app/chat/tkQll4EuRom](https://v0.app/chat/tkQll4EuRom)
-- **Deployment**: [Vercel Dashboard](https://vercel.com/aq96650-9091s-projects/v0-software-engineer-portfolio)
-
-## License
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## Acknowledgments
+## 🙏 Acknowledgments
 
 - [shadcn/ui](https://ui.shadcn.com/) for the beautiful component library
 - [Vercel](https://vercel.com) for hosting and deployment
-- [v0.app](https://v0.app) for AI-powered development
+
+---
+
+**Owner**: Ashraf Ali Qahtan  
+**Email**: [aq96650@gmail.com](mailto:aq96650@gmail.com)  
+**GitHub**: [ashraf-qahtan](https://github.com/ashrafaliqhtan)
